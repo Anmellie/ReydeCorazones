@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto Slab', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.number-100 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000; /* Rojo */
+}
+
+
+.number-table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.number-table th {
+    background-color: #ffD700; /* Dorado */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.number-table td {
+    background-color: #0074b8; /* Azul */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.number-table td:hover {
+    background-color: #ff0000; /* Rojo al pasar el ratón */
+}
+
+#selectedNumber {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff0000; /* Rojo */
+}

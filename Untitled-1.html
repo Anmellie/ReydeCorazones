@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tribunal de Fe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+</head>
+<body>
+    <h1>Juego del Rey de Corazones</h1>
+    
+    <!-- Agrega un formulario alrededor del contenido -->
+    <form id="playerForm">
+        <p>Ingresa tu nombre:</p>
+        <input type="text" id="playerName" placeholder="Nombre del jugador">
+        <br>
+        <p>Haz tu elección</p>
+        <table class="number-table">
+            <tbody id="numberTable">
+                <!-- Aquí se generará la tabla de números y símbolos -->
+            </tbody>
+        </table>
+        <br>
+        <p>Eliges: <span id="selectedNumber"></span></p>
+        <button type="button" id="submitButton">Enviar Resultado</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="main.js"></script>
+</body>
+</html>
