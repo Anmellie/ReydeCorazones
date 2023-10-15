@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Función para enviar los datos a la aplicación web de Google Apps Script
     function enviarDatosAGoogleAppsScript(playerName, selectedNumber) {
-        const apiUrl = 'https://script.google.com/macros/s/AKfycbzLwpPm1UpkILWPMqpOz5MRtS44wvUx9kvW_VbFGhGqcSZXfyjh7Hp8KY7Absv5pAQkJg/exec'; // Reemplaza con la URL de tu aplicación web
+        const apiUrl = 'https://script.google.com/macros/s/AKfycbzXiu13tOflrs8e_nEjs6B0c_w8UyAq4treZoiGNnGgs5tDZN-AqaQWdSC6XpDVAQBkuA/exec'; // Reemplaza con la URL de tu aplicación web
 
         const data = {
             playerName: playerName,
